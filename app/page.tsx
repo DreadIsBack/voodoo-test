@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <main className="mx-auto p-6 max-w-[1320px]">
       <Panel
+        className="sm:mt-[76px]"
         iconText="ALPHA"
         header="Important info regarding our service"
         contentText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam
