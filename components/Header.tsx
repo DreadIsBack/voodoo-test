@@ -1,22 +1,16 @@
-import Image from "next/image";
-
 export default function Header() {
   return (
-    <header>
-      <div className="p-6 flex justify-between border-b border-black">
+    <header className="border-b border-black">
+      <div className="mx-auto p-6 max-w-[1270px] flex justify-between sm:py-12 min-[1400px]:max-w-[1360px] min-[1400px]:pr-[69px]">
         <a className="flex items-start" href="#">
-          <Image
-            className="max-w-none"
+          <img
+            className="w-[23px] sm:w-[45px]"
             src="/img/logo.svg"
-            width={23}
-            height={23}
             alt="Logo"
           />
-          <Image
-            className="ml-1 max-w-none"
+          <img
+            className="ml-1 w-[94px] sm:w-[193px]"
             src="/img/logo-text.svg"
-            width={94}
-            height={48}
             alt="Logo text"
           />
         </a>
