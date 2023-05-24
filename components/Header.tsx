@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="border-b border-black">
-      <div className="mx-auto p-6 max-w-[1270px] flex justify-between sm:py-12 min-[1400px]:max-w-[1360px] min-[1400px]:pr-[69px]">
+      <div className="mx-auto p-6 max-w-[1320px] flex justify-between sm:py-12 min-[1450px]:max-w-[1410px] min-[1450px]:pr-[69px]">
         <a className="flex items-start" href="#">
           <img
             className="w-[23px] sm:w-[45px]"
