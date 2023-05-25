@@ -38,11 +38,11 @@ export default function Products(props: Props) {
   );
 
   return (
-    <div className={rootClass}>
+    <section className={rootClass}>
       {products &&
         products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
-    </div>
+    </section>
   );
 }

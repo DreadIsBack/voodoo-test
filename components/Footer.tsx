@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-white">
-      <div className="mx-auto p-12 max-w-[1320px] flex flex-col sm:flex-row sm:items-center sm:gap-[133px]">
+      <nav className="mx-auto p-12 max-w-[1320px] flex flex-col sm:flex-row sm:items-center sm:gap-[133px]">
         <div className="flex flex-col flex-wrap gap-12 sm:flex-row sm:order-1">
           <div className="w-[300px] flex flex-col gap-[19px]">
             <a className="block text-sm font-bold hover:underline" href="#">
@@ -55,7 +55,7 @@ export default function Footer() {
           height={80}
           alt="Logo"
         />
-      </div>
+      </nav>
     </footer>
   );
 }

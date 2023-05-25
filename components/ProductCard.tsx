@@ -6,7 +6,7 @@ interface Props {
 
 export default function ProductCard(props: Props) {
   return (
-    <div className="mt-[50px] flex flex-col justify-between">
+    <article className="mt-[50px] flex flex-col justify-between">
       <div>
         <div className="h-[300px] relative overflow-hidden border border-black rounded">
           <div className="p-2 absolute left-3 top-3 rounded bg-black text-xs font-normal text-[#FCF7E6]">
@@ -30,6 +30,6 @@ export default function ProductCard(props: Props) {
       <button className="p-4 w-full rounded bg-black text-center text-sm font-bold text-white">
         PICK-UP IN <span className="underline">2200</span>
       </button>
-    </div>
+    </article>
   );
 }

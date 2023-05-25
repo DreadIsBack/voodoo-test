@@ -1,6 +1,6 @@
 export default function Subscribe() {
   return (
-    <div className="mt-[98px] text-center text-sm">
+    <section className="mt-[98px] text-center text-sm">
       <p>Be the first one to know when we launch our beta!</p>
       <div className="mt-6 flex justify-center gap-3">
         <input
@@ -12,6 +12,6 @@ export default function Subscribe() {
           Sign-up
         </button>
       </div>
-    </div>
+    </section>
   );
 }

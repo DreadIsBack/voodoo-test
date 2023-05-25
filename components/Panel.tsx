@@ -18,7 +18,7 @@ export default function Panel(props: Props) {
   }
 
   return (
-    <div className={props.className}>
+    <section className={props.className}>
       <div
         className="p-[26px] rounded flex justify-between bg-black text-[#FCF7E6] cursor-pointer"
         onClick={toggle}
@@ -49,6 +49,6 @@ export default function Panel(props: Props) {
           {props.contentText}
         </div>
       )}
-    </div>
+    </section>
   );
 }
